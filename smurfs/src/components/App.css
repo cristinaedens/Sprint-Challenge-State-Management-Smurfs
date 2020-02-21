@@ -1,28 +1,142 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+    text-align: center;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .App-intro {
-  font-size: large;
+    font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h1:hover {
+    color: #34A0CE;
+    transition: 2s;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 3rem;
+    margin: 0;
+}
+
+hr {
+    border: 1px solid #F6D7DE;
+    margin-top: 4%;
+    box-shadow: 0px 0px 8px 8px pink;
+    margin-bottom: 10%;
+}
+
+form {
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    color: hotpink;
+}
+
+.Home {
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.Smurfs {
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+p {
+    color: pink;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+* {
+    background: #213253;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+input {
+    background-color: lavenderblush;
+    width: 25%;
+    margin-left: 38%;
+    margin-bottom: 2%;
+}
+
+label {
+    color: pink;
+}
+
+.SmurfList {
+    border: 1px solid #40c2fa;
+    margin-top: 4%;
+    box-shadow: 0px 0px 8px 8px #34A0CE;
+    margin-bottom: 10%;
+    width: 35%;
+    align-items: center;
+    margin-left: 30%;
+    margin-bottom: 2%;
+    border-radius: 18px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.addbtn {
+    width: 15%;
+    margin-left: 44%;
+    margin-top: 1%;
+    background: black;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+}
+
+.addbtn:hover {
+    border: 1px solid #34A0CE;
+    color: #34A0CE;
+    transition: 1s;
+    box-shadow: 0px 0px 2px;
+}
+
+.deletebtn {
+    background: black;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    margin-left: 45%;
+    margin-bottom: 5%;
+}
+
+.deletebtn:hover {
+    border: 1px solid #34A0CE;
+    color: #34A0CE;
+    transition: 1s;
+    box-shadow: 0px 0px 2px;
 }
